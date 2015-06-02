@@ -13,49 +13,43 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
+        style="@style/ButtonBase.Orange"
         android:id="@+id/btn_spotify"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_spotify"
         android:onClick="goSpotify"
         android:layout_below="@id/tv_header"/>
 
     <Button
+        style="@style/ButtonBase.Orange"
         android:id="@+id/btn_scores"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_scores"
         android:onClick="goScores"
         android:layout_below="@id/btn_spotify"/>
 
     <Button
+        style="@style/ButtonBase.Orange"
         android:id="@+id/btn_library"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_library"
         android:onClick="goLibrary"
         android:layout_below="@id/btn_scores"/>
 
     <Button
+        style="@style/ButtonBase.Orange"
         android:id="@+id/btn_bigger"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_bigger"
         android:onClick="goBigger"
         android:layout_below="@id/btn_library"/>
 
     <Button
+        style="@style/ButtonBase.Orange"
         android:id="@+id/btn_reader"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_reader"
         android:onClick="goReader"
         android:layout_below="@id/btn_bigger"/>
 
     <Button
+        style="@style/ButtonBase.Blue"
         android:id="@+id/btn_capstone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/app_capstone"
         android:onClick="goCapstone"
         android:layout_below="@id/btn_reader"/>
